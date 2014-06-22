@@ -1,17 +1,19 @@
 Data:
+========================================
 The data is a collected from the accelerometers of Samsung Galaxy S smartphone.  
 http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones
 The data file is obtained from a URL listed below:
 https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
 
 Data Set Information:
+========================================
 The source of the data is arrived from the experiments consisting of 30 volunteers whose age group range from 19-48 years old.  Each individual performed six daily living activities while wearing a Samsun Galaxy S II smartphone on their waist.  These activities range includes
- WALKING
- WALKING_UPSTAIRS
-WALKING_DOWNSTAIRS
-SITTINGhttps://github.com/DataUser1688/Getting-and-Cleaning-Data-Course-Project/settings
-STANDING
-LAYING 
+ • WALKING
+ • WALKING_UPSTAIRS
+ • WALKING_DOWNSTAIRS
+ • SITTING
+ • STANDING
+ • LAYING 
 
 The datasets consist of two sets, training data and test data.  70% of the volunteers were selected for generating the training data and 30 % the test data.   There are 10,299 instances(records) and 561 attributes(columns).
 The course of this project use the following files:
@@ -23,7 +25,8 @@ The course of this project use the following files:
 - test/X_test.txt: Test set.
 - test/y_test.txt: Test labels.
 
-Variable Names
+Variable Names:
+========================================
 The package use for this course project is “reshape2”.  Dcast function is used to aggregate the observations by the “activity”.   
 Of the 561 variables, 82 variables are the mean and standard deviation measured by the keywords “mean” and “std” labeled in the attribute names.  
 
