@@ -9,18 +9,17 @@ https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Datas
 Data Set Information:
 ========================================
 The source of the data is arrived from the experiments consisting of 30 volunteers whose age group range from 19-48 years old.  Each individual performed six daily living activities while wearing a Samsun Galaxy S II smartphone on their waist.  These activities range includes
- • WALKING
- • WALKING_UPSTAIRS
- • WALKING_DOWNSTAIRS
- • SITTING
- • STANDING
- • LAYING 
+ - WALKING
+ - WALKING_UPSTAIRS
+ - WALKING_DOWNSTAIRS
+ - SITTING
+ - STANDING
+ - LAYING 
 
 The datasets consist of two sets, training data and test data.  70% of the volunteers were selected for generating the training data and 30 % the test data.   There are 10,299 instances(records) and 561 attributes(columns).
 The course of this project use the following files:
 - features.txt: List of all features.
--  activity_labels.txt: Links the class labels with their activity name.
-
+- activity_labels.txt: Links the class labels with their activity name.
 - train/X_train.txt: Training set.
 - train/y_train.txt: Training labels.
 - test/X_test.txt: Test set.
