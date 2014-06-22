@@ -22,7 +22,7 @@ Below are the steps used by run.analysis.R:
 
 Included in this repo are:
 
-run_analysis.R
+run_analysis.R 
+codebook.md 
 
-codebook.md
  
