@@ -7,8 +7,9 @@ This course of this project is to collect, clean the data set and product a tidy
 
 Included in this repo are:
 
-•	run_analysis.R - the main script from producing the tidy data set
-•	codebook.md 
+run_analysis.R
+codebook.md
+ 
 
 “run_analysis.R”
 ========================================
